@@ -1,5 +1,5 @@
 class DataHandling:
-    conn = squlite3.connect("expenses.db")
+    conn = sqlite3.connect("expenses.db")
     cur = conn.cursor()
 
 while True: 
